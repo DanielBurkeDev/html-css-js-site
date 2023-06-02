@@ -8,13 +8,16 @@ btnNavEl.addEventListener("click", function () {
 
 // Fixing scroll-behavior: smooth; in safari and edge cos it doesnt work
 
-const allLinks = document.querySelectorAll("a:link");
+// const allLinks = document.querySelectorAll("a:link");
+const allLinks = document.querySelectorAll(".inside-link");
 
 allLinks.forEach(function (link) {
   console.log(allLinks);
   link.addEventListener("click", function (e) {
     e.preventDefault();
+
     const href = link.getAttribute("href");
+    const outsideLink = link.querySelector(".outside-link");
 
     // Scroll back to top
     if (href === "#")
