@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Roboto:wght@300;400;700&family=Rubik:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+
+    <script defer src="js/script.js"></script>
+    <title>Freeman Motorcycles</title>
+  </head>
+  <body>
+    <header class="header" id="top">
+      <div class="header-logo-box">
+        <a href="#" class="header-logo-link">
+        <img
+        class="header-logo"
+        src="img/freeman-motorcycles-logo-small.png"
+        alt="freeman logo"
+      />
+    </a>
+    </div>
+      <nav class="main__nav">      
+        <ul class="main__nav-list">
+          <li class="main__nav-item">
+            <a href="#about" class="main__nav-item-link">About</a>
+          </li>
+          <li class="main__nav-item">
+            <a href="#services" class="main__nav-item-link">Services</a>
+          </li>
+          <li class="main__nav-item">
+            <a href="#store" class="main__nav-item-link">Store</a>
+          </li>
+          <li class="main__nav-item">
+            <a href="#location" class="main__nav-item-link">Location</a>
+          </li>
+          <li class="main__nav-item">
+            <a href="#team" class="main__nav-item-link">Team</a>
+          </li>
+          <li class="main__nav-item">
+            <a href="#contact" class="main__nav-item-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- SECTION HERO -->
+      <section class="section-hero">
+        <div class="hero-logo-container">
+          <img
+            class="hero-logo"
+            src="img/freeman-logo-lrg.webp"
+            alt="freeman logo"
+          />
+          <h1 class="heading-primary margin-bottom-md center-text">
+            Tipperarys finest motorcycle store
+          </h1>
+          <a href="#contact" class="cta-btn btn btn--orange btn--animated "
+            >Get in touch</a
+          >
+        </div>
+      </section>
+
+      <!-- SECTION ABOUT -->
+      <section class="section-about" id="about">
+        <div
+          class="container grid grid--2-cols .grid--center-vertically"
+        >
+          <div class="about__img--container">
+            <img
+              class="about__service--img"
+              src="img/Freemans-Parts-counter.webp"
+              alt="bike parts and service counter"
+            />
+          </div>
+
+          <div class="about__text">
+            <h2 class="heading-secondary margin-bottom-md">About Freeman</h2>
+            <p class="section-about-p margin-bottom-md">
+              Freeman Motorcycles is a family run business based in Clonmel, Co.
+              Tipperary. A subsidiary of Freeman Motors, an established,
+              recognised and award winning auto dealership, workshop and
+              commercial testing centre in the region.
+            </p>
+            <div class="stats">
+              <div class="stats__container">
+                <div class="stats__box1 box">
+                  <p class="lrg-text">20Yrs</p>
+                  <p>in business</p>
+                </div>
+                <div class="stats__box1 box">
+                  <p class="lrg-text">8Yrs</p>
+                  <p>in the motorcycle business</p>
+                </div>
+                <div class="stats__box1 box">
+                  <p class="lrg-text">110k+</p>
+                  <p>satisfied clients</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION TEAM -->
+      <section class="section-team mobile-section-padding" id="team">
+        <div class="team-container">
+          <h2 class="heading-secondary margin-bottom-md">Meet Our Moto Team</h2>
+          <div class="team-member-container">
+            <figure class="team-member">
+              <img
+                src="img/seeamus-freeman-managing-director-technician.webp"
+                alt="Seamus freeman team managing director, technician at freeman motorcycles"
+                class="team-member-img margin-bottom-sm"
+              />
+              <figcaption>
+                <h3 class="heading-tertiary margin-bottom-sm">
+                  Seamus Freeman
+                </h3>
+                <p class="team-role-p">Managing Director, Technician</p>
+              </figcaption>
+            </figure>
+
+            <figure class="team-member">
+              <img
+                src="img/Gary-Freeman-Motorcycles.webp"
+                alt="Gary Williams Motorcycle Mechanic at freeman motorcycles"
+                class="team-member-img margin-bottom-sm"
+              />
+              <figcaption>
+                <h3 class="heading-tertiary margin-bottom-sm">Gary Williams</h3>
+                <p class="team-role-p">Motorcycle Mechanic</p>
+              </figcaption>
+            </figure>
+
+            <figure class="team-member">
+              <img
+                src="img/Sean-Lynch-mechanic-Freeman-Motorcycles-Ireland-2.webp"
+                alt="Sean Lynch Motorcycle Mechanic at freeman motorcycles"
+                class="team-member-img margin-bottom-sm"
+              />
+              <figcaption>
+                <h3 class="heading-tertiary margin-bottom-sm">Sean Lynch</h3>
+                <p class="team-role-p">Motorcycle Mechanic</p>
+              </figcaption>
+            </figure>
+
+            <figure class="team-member row2-col2">
+              <img
+                src="img/toddy-mcnamara-sales-manager.webp"
+                alt="Sales Manager at freeman motorcycles"
+                class="team-member-img margin-bottom-sm"
+              />
+              <figcaption>
+                <h3 class="heading-tertiary margin-bottom-sm">
+                  Toddy McNamara
+                </h3>
+                <p class="team-role-p">Sales Manager</p>
+              </figcaption>
+            </figure>
+
+            <figure class="team-member row2-col3">
+              <img
+                src="img/jake-freeman-motorcycles-ireland.webp"
+                alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                class="team-member-img margin-bottom-sm"
+              />
+              <figcaption>
+                <h3 class="heading-tertiary margin-bottom-sm">JJ Freeman</h3>
+                <p class="team-role-p">Parts and Retail</p>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION SERVICES -->
+      <section class="section-services mobile-section-padding" id="services">
+        <div class="services-container container">
+          <div class="secondary-title-box">
+            <h2 class="heading-secondary margin-bottom-md">Our Services</h2>
+          </div>
+          <div class="services-container-text grid grid--3-cols">
+            <div class="service">
+              <ion-icon class="service-icon" name="receipt-outline"></ion-icon>
+              <h3 class="heading-tertiary margin-bottom-sm">
+                Motorcycle Sales
+              </h3>
+              <p class="services-p">
+                We source a quality range of new and used motorcyles.
+              </p>
+            </div>
+
+            <div class="service">
+              <ion-icon class="service-icon" name="search-outline"></ion-icon>
+              <h3 class="heading-tertiary margin-bottom-sm">
+                Motorcycle Sourcing
+              </h3>
+              <p class="services-p">
+                Clients often come to us seeking a particular motorcycle and we
+                will work tirelessly to find it for them.
+              </p>
+            </div>
+
+            <div class="service">
+              <ion-icon class="service-icon" name="bandage-outline"></ion-icon>
+              <h3 class="heading-tertiary margin-bottom-sm">
+                Motorcycle Safety Gear
+              </h3>
+              <p class="services-p">
+                Some of the top brands that we stock include Halvarssons,
+                Lindtrands, Alpiestars, Sidi, Oxford, RST, HJC, Motogirl.
+              </p>
+            </div>
+
+            <div class="service">
+              <ion-icon class="service-icon" name="cog-outline"></ion-icon>
+              <h3 class="heading-tertiary margin-bottom-sm">
+                Motorcycle Parts
+              </h3>
+              <p class="services-p">
+                We stock parts for all types of motorcycles from top brands
+                including Oxford, Silkolene, MucOff, Motul, K&N, Hiflo, DND, All
+                Balls.
+              </p>
+            </div>
+
+            <div class="service">
+              <ion-icon
+                class="service-icon"
+                name="construct-outline"
+              ></ion-icon>
+              <h3 class="heading-tertiary margin-bottom-sm">
+                Motorcycle Servicing
+              </h3>
+              <p class="services-p">
+                Our motorcyle technicians have combined experience of 90 years.
+                With state of the art diagnostics and equipment on hand.
+              </p>
+            </div>
+
+            <div class="service">
+              <ion-icon class="service-icon" name="bus-outline"></ion-icon>
+              <h3 class="heading-tertiary margin-bottom-sm">
+                Motorcycle Recovery/Transport
+              </h3>
+              <p class="services-p">
+                The Freeman's Moto Team will transport or recover motorcyles
+                around the country in our dedicated van.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION OUR STORE -->
+      <section class="section-our-store mobile-section-padding" id="store">
+        <div class="secondary-title-box">
+          <h2 class="heading-secondary margin-bottom-md">Our Store</h2>
+        </div>
+        <div class="our-store-box">
+          <div class="gallery-list-container">
+            <div class="our-store-gallery">
+              <figure class="gallery">
+                <img
+                  src="img/shop-1.webp"
+                  alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                  class="our-store-img"
+                />
+              </figure>
+
+              <figure class="gallery">
+                <img
+                  src="img/shop-2.webp"
+                  alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                  class="our-store-img"
+                />
+              </figure>
+              <figure class="gallery">
+                <img
+                  src="img/shop-3.webp"
+                  alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                  class="our-store-img"
+                />
+              </figure>
+              <figure class="gallery">
+                <img
+                  src="img/shop-4.webp"
+                  alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                  class="our-store-img"
+                />
+              </figure>
+              <figure class="gallery">
+                <img
+                  src="img/shop-5.webp"
+                  alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                  class="our-store-img"
+                />
+              </figure>
+              <figure class="gallery">
+                <img
+                  src="img/shop-6.webp"
+                  alt="JJ Freeman Parts and Retail at freeman motorcycles"
+                  class="our-store-img"
+                />
+              </figure>
+            </div>
+            <div class="list">
+              <div class="tertiary-title-box">
+                <h3 class="heading-tertiary margin-bottom-md">
+                  Onsite We have:
+                </h3>
+              </div>
+              <ul>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>A dedicated motorcycle workshop</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Engine room</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>2 motorcycle showrooms</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Motorcycle Apparel/Gear retail store</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Coffee dock</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Seperate auto workshop</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>A CVRT testing lane</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Reception area</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Offices</span>
+                </li>
+                <li class="list-item">
+                  <ion-icon
+                    class="list-icon"
+                    name="checkmark-outline"
+                  ></ion-icon
+                  ><span>Ample onsite and street parking</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION LOCATION -->
+      <section class="section-location mobile-section-padding" id="location">
+        <div class="secondary-title-box">
+          <h2 class="heading-secondary margin-bottom-md">
+            Our Location: Clonmel
+          </h2>
+        </div>
+        <div class="location-box">
+          <div class="location-text-box">
+            <p>
+              Clonmel Town is on the main route between Waterford and Cork or
+              Limerick and is a mere 1 hour 45 minutes from Dublin thanks to the
+              M8 and M9 motorways.
+            </p>
+            <p>
+              Freeman Motorcycles and Freeman Motors are located on the main
+              thoroughfare entering Clonmel Town.
+            </p>
+            <p>
+              Situated between two busy main auto dealerships, three large
+              supermarkets and walking distance to Clonmel's main Shopping
+              Centre.
+            </p>
+            <p>
+              We have had the pleasure of welcoming customers from all over the
+              country due to our 4.8 rating on google and our attention to
+              customer service.
+            </p>
+          </div>
+          <div class="our-location-gallery">
+            <div class="map-location">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4098.141865411999!2d-7.691309606785102!3d52.35646150298564!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x484331e6f4edd979%3A0x36cb00e9bb14bc01!2sFreeman%20Motorcycles!5e0!3m2!1sen!2sie!4v1683834262998!5m2!1sen!2sie" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <!-- <figure class="gallery">
+              <img
+                src="img/ireland-map.jpg"
+                alt="map showing location of clonmel in Ireland"
+                class="our-store-img"
+              />
+            </figure>
+            
+
+            <figure class="gallery">
+              <img
+                src="img/clonmel-map.jpg"
+                alt="map showing zoomed in on Clonmel and Freemans location"
+                class="our-store-img"
+              />
+            </figure> -->
+         
+        </div>
+      </section>
+      <!-- <div class="full-width-img">
+        <img
+          src="img/COVER Africa Twin for sale at Freeman Motorcycles Ireland-10.jpg"
+          alt="photo of bike lamp with Freeman Motorcycles logo "
+        />
+      </div> -->
+      <section class="section-contact" >
+        <div class="img-box">
+          <img
+            src="img/freeman-bg-1080x1080.webp"
+            alt="photo of bike lamp with Freeman Motorcycles logo "
+            class="half-screen-img"
+          />
+        </div>
+        <div class="contact-details-box mobile-section-padding" id="contact">
+          <img
+            src="img/Freeman circle WHITE.png"
+            alt="Freeman Motorcycles white circular logo"
+            class="freeman-w-logo-sml margin-bottom-sm"
+          />
+          <h3 class="heading-tertiary margin-bottom-sm">
+            Ride Free with Freeman Motorcycles
+          </h3>
+          <p class="contact-address margin-bottom-sm">
+            Davis Rd,<br />
+            Clonmel, <br />
+            Co. Tipperary,<br />
+            Ireland, <br />
+            E91K225
+          </p>
+          <div class="contact-phone margin-bottom-sm">
+            <ion-icon class="contact-phone-icon" name="call-outline"></ion-icon>
+            <a class="contact-phone-tel-link" href="tel:+35352 612 1112">052 612 1112</a>
+          </div>
+          <div class="contact-email margin-bottom-md">
+            <ion-icon class="contact-email-icon" name="mail-outline"></ion-icon>
+            <p>info@freemanmotors.ie</p>
+          </div>
+
+          <div class="social-media-title">
+            <p class="margin-bottom-sm">
+              Follow us on social media for regular updates:
+            </p>
+          </div>
+
+          <div class="socials">
+           
+            <a href="https://www.instagram.com/freemanmotoclonmel/" target="_blank">
+              <ion-icon
+                class="socials-icon socials-instagram-icon"
+                name="logo-instagram"
+              ></ion-icon>
+            </a>
+          
+
+            <a href="https://www.facebook.com/Freemanmotoclonmel" target="_blank">
+             <ion-icon class="socials-icon socials-fb-icon" name="logo-facebook"></ion-icon>
+            </a>
+
+          <a href="https://www.donedeal.ie/dealer/freeman-motorcycles" target="_blank">
+            <img
+              src="img/done-deal-logo.png"
+              alt="done deal logo with link to done deal profile"
+              class="socials-icon done-deal-logo"
+            />
+          </a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <p>2023 &copy; Freeman Motorcycles. All rights reserved</p>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
