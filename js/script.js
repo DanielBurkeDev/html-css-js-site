@@ -7,7 +7,7 @@ btnNavEl.addEventListener("click", function () {
 });
 
 // Fixing scroll-behavior: smooth; in safari and edge cos it doesnt work
-// const allLinks = document.querySelectorAll("a:link");
+const allLinks = document.querySelectorAll("a:link");
 allLinks.forEach(function (link) {
   link.addEventListener("click", function (e) {
     e.preventDefault();
