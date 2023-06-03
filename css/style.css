@@ -70,6 +70,7 @@ Medium: 11px
   --color-grey-dark-2: #222426;
   --color-grey-dark-3: #101010;
   --color-accent-1: #bf7b3f;
+  --color-light-orange: #f6aa1c;
   --color-accent-2: #260902;
   --color-accent-3: #bc3908;
   --color-white: #fff;
@@ -598,12 +599,12 @@ body {
   background-color: var(--color-accent-3);
 }
 
-.btn--green {
-  background-color: var(--color-grey-dark-2);
+.btn--light-orange {
+  background-color: var(--color-light-orange);
   color: var(--color-primary-light-1);
 }
-.btn--green::after {
-  background-color: var(--color-grey-dark-2);
+.btn--light-orange::after {
+  background-color: var(--color-light-orange);
 }
 
 .btn::after {
